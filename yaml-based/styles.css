@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    background: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Main */
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+#userInfo {
+    background: #1e293b;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Card */
+.card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* YAML box */
+textarea {
+    width: 97%;
+    min-height: 180px;
+    resize: vertical;
+    background: #1e293b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-family: monospace;
+}
+
+/* Button */
+button {
+    padding: 12px;
+    width: 100px;
+    background: linear-gradient(45deg, #1c46a9, #2162de);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #334155;
+    padding: 8px;
+}
